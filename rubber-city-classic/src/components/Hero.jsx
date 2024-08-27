@@ -7,12 +7,12 @@ const Hero = () => {
 
 <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
   <div class="absolute inset-0">
-    <img src="/public/images/dji_fly_20240225_172350_57_1708899852731_photo.jpg" alt="Background Image" class="object-cover object-center w-full h-full" />
+    <img src="/images/dji_fly_20240225_172350_57_1708899852731_photo.jpg" alt="Background Image" class="object-cover object-center w-full h-full" />
     <div class="absolute inset-0 bg-black opacity-50"></div>
   </div>
   
   <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
-    <img className='w-[350px] mb-12' src='/public/images/RCC Logo.png' />
+    <img className='w-[350px] mb-12' src='/images/RCC Logo.png' />
     <h1 class="md:text-6xl text-3xl mb-2 font-bold text-white tracking-tight leading-tight">
         October 5-6, 2024
       </h1>
