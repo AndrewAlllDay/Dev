@@ -12,8 +12,12 @@ export default {
       gridTemplateColumns: {
         '7-30': '70% 28%',
       },
-
-   
+      backgroundImage: {
+        'hero-pattern': "url('/images/logotop.png)",
+      },
+      colors: {
+        'cityblue': '#2a4780',
+      },
     },
   },
   plugins: [],
