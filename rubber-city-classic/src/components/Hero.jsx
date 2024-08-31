@@ -11,11 +11,11 @@ const Hero = () => {
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
         <img className='w-[350px] mb-12' src='/images/RCC Logo.png' />
-        <h1 class="md:text-6xl text-4xl mb-2 font-bold text-white tracking-tight leading-tight">
+        <h1 class="md:text-6xl text-4xl mb-2 font-extrabold text-white tracking-wide leading-tight font-sans">
           October 5-6, 2024
         </h1>
         <div className='flex justify-center'>
-          <ReactTyped className='text-white md:text-4xl text-3xl font-bold pl-2 md:pl-4' strings={['Two days', 'Three rounds', '$2000+ added pro cash']} typeSpeed={70} backSpeed={40} loop />
+          <ReactTyped className='text-white md:text-4xl text-3xl font-bold pl-2 md:pl-4 font-sans' strings={['Two days', 'Three rounds', '$2000+ added pro cash']} typeSpeed={70} backSpeed={40} loop />
         </div>
 
         <a href="#about-me" class="absolute block mx-auto text-xl md:mt-96 bottom-0 left-1/2 -ml-10 mt-80">
