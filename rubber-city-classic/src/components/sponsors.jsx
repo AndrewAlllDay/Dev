@@ -3,7 +3,7 @@ import React from 'react'
 const sponsors = () => {
     return (
         <div class="relative bg-cityblue h-[1100px] md:h-[1500px] text-white overflow-hidden">
-            <h1 className='text-7xl md:text-8xl uppercase font-extrabold mt-16 text-center md:text-left md:mt-36 md:pl-6'> Sponsors</h1>
+            <h1 className='text-7xl md:text-8xl uppercase font-extrabold mt-16 text-center md:text-left md:mt-36 md:pl-6'>Sponsors</h1>
             <div class="w-3/4 mx-auto mt-12 md:mt-20 p-4">
                 <h2 className='text-center text-3xl uppercase'>Upper Levels</h2>
                 <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-8 text-cityblue mt-8">
